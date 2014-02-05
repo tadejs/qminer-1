@@ -20,9 +20,9 @@
 #ifndef QMINER_JS_H
 #define QMINER_JS_H
 
-#include <qminer.h>
-#include <qminer_srv.h>
-#include <qminer_gs.h>
+#include "qminer.h"
+#include "qminer_srv.h"
+#include "qminer_gs.h"
 #include <v8.h>
 #include <typeinfo>
 

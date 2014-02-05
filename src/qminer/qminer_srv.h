@@ -23,7 +23,7 @@
 #ifndef QMINERSRV_H
 #define QMINERSRV_H
 
-#include <qminer.h>
+#include "qminer.h"
 #include <net.h>
 
 namespace TQm {

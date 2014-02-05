@@ -21,7 +21,7 @@
 #define QMINER_GS_SRV_H
 
 #include "qminer_gs.h"
-#include <qminer_srv.h>
+#include "qminer_srv.h"
 
 namespace TQm {
 

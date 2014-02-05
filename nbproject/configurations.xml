@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>src/qminer/qminer.h</itemPath>
+      <itemPath>src/qminer/qminer_aggr.h</itemPath>
+      <itemPath>src/qminer/qminer_core.h</itemPath>
+      <itemPath>src/qminer/qminer_ftr.h</itemPath>
+      <itemPath>src/qminer/qminer_gs.h</itemPath>
+      <itemPath>src/qminer/qminer_gs_srv.h</itemPath>
+      <itemPath>src/qminer/qminer_js.h</itemPath>
+      <itemPath>src/qminer/qminer_op.h</itemPath>
+      <itemPath>src/qminer/qminer_srv.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/qminer/qminer_aggr.cpp</itemPath>
+      <itemPath>src/qminer/qminer_core.cpp</itemPath>
+      <itemPath>src/qminer/qminer_ftr.cpp</itemPath>
+      <itemPath>src/qminer/qminer_gs.cpp</itemPath>
+      <itemPath>src/qminer/qminer_gs_srv.cpp</itemPath>
+      <itemPath>src/qminer/qminer_js.cpp</itemPath>
+      <itemPath>src/qminer/qminer_op.cpp</itemPath>
+      <itemPath>src/qminer/qminer_srv.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>qminer-Makefile.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>qminer-Makefile.mk</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../glib/net</pElem>
+            <pElem>../../glib/misc</pElem>
+            <pElem>../../glib/concurrent</pElem>
+            <pElem>../../../lib/OpenBLAS/include</pElem>
+            <pElem>../../glib/mine</pElem>
+            <pElem>../../glib/base</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>OPENBLAS</Elem>
+          </preprocessorList>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="src/qminer/qminer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_aggr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_aggr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_ftr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_ftr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_gs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_gs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_gs_srv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_gs_srv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_js.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_js.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_op.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_op.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_srv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_srv.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="src/qminer/qminer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_aggr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_aggr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_ftr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_ftr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_gs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_gs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_gs_srv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_gs_srv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_js.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_js.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_op.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_op.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_srv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/qminer/qminer_srv.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
